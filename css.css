@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(48, 46, 44);
+    z-index: 99;
+}
+
+.navbar-logo img{
+    width: 150px;
+    height: 40px;
+}
+
+.navbar .navbar-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-list li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-list ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.navbar .navbar-list ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.parent-img{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(23, 21, 21, 1)),
+    url('bahan2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parent-event{
+    color: white;
+    padding: 6rem 5%;
+}
+
+.parent-event h2{
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.baris-konten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.konten{
+    margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.konten img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.baris-konten p{
+    text-align: center;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.konten h3{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.parent-about{
+    color: white;
+    padding: 6rem 5%;
+}
+
+.parent-about h2{
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.baris-about{
+    flex-wrap: wrap;
+}
+
+.baris-about img{
+    width: 400px;
+}
+
+.baris-about p{
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.baris-about h3{
+    font-style: bold;
+    margin: 1rem;
+}
+
+.footer{
+    color: white;
+    padding: 3rem 5%;
+    background-color: rgb(48, 46, 44);
+    text-align: center;
+}
