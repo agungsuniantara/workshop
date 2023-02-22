@@ -161,10 +161,10 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    position: absolute;
-    top: 1;
+    position: fixed;
     right: 0;
     left: 0;
+    bottom: 0;
     background-color: rgba(86, 83, 79, 0.9);
     color: white;
     font-size: small;
