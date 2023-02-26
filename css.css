@@ -10,6 +10,8 @@
 
 body{
     background-color: rgb(238, 238, 238);
+    right: 0;
+    left: 0;
 }
 
 .navbar{
@@ -135,6 +137,7 @@ body{
     text-align: right;
     padding: 1rem 5%;
     position: absolute;
+    flex-wrap: wrap;
     top: 1;
     right: 0;
     left: 0;
